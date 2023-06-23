@@ -1,3 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* background: linear-gradient(to left, rgba(247,0,104) 0%,rgba(68,16,102,1) 100%); */
+
+/* box-shadow: 0 0 30px rgba(0,0,0,0.30); */
