@@ -1,6 +1,7 @@
 import  { useState } from 'react'
 import { Link, NavLink } from 'react-router-dom'
 import CommonBtn from '../pages/components/Common-btn/CommonBtn'
+import logo from '../assets/img/logo.png'
 
 
 
@@ -13,35 +14,34 @@ const Navbar = () => {
   return (
     <>
     
-<div className="  bg-primary">
-	<nav className="relative px-4 py-4 max-w-7xl mx-auto flex justify-between items-center">
+<div className="">
+	<nav className="relative px-4 py-4 max-w-7xl mx-auto flex justify-between  items-center">
 		<Link to='/' className="text-3xl font-bold leading-none" >
-			<img src="../assets/logo (1).png" alt="" />
+			{logo}
             <h2 className='text-white'>logo</h2>
 		</Link>
 		
-		<ul className="hidden absolute top-1/2 left-1/2 transform -translate-y-1/2 -translate-x-1/2 lg:flex lg:mx-auto lg:items-center lg:w-auto lg:space-x-6">
+		<ul className="hidden  lg:flex  lg:items-center lg:space-x-8">
 
 		<li><NavLink to='/'  className={({ isActive }) => (isActive ? 'border-b-2 border-secondary font-semibold text-[17px] text-white hover:text-secondary ' : 'font-semibold text-[17px] text-white hover:text-secondary') } >Home</NavLink></li>
 			
-			<li><NavLink to='/about'  className={({ isActive }) => (isActive ? 'border-b-2 border-secondary font-semibold text-[17px] text-white hover:text-secondary ' : 'font-semibold text-[17px] text-white hover:text-secondary') } >About Us</NavLink></li>
+			<li><NavLink to='/about'  className={({ isActive }) => (isActive ? 'border-b-2 border-secondary font-semibold text-[17px] text-white hover:text-secondary ' : 'font-semibold text-[17px] text-white hover:text-secondary') } >About</NavLink></li>
 			
-			<li><NavLink to='/services'  className={({ isActive }) => (isActive ? 'border-b-2 border-secondary font-semibold text-[17px] text-white hover:text-secondary ' : 'font-semibold text-[17px] text-white hover:text-secondary') } >Services</NavLink></li>
+			<li><NavLink to='/services'  className={({ isActive }) => (isActive ? 'border-b-2 border-secondary font-semibold text-[17px] text-white hover:text-secondary ' : 'font-semibold text-[17px] text-white hover:text-secondary') } >Speakers</NavLink></li>
 			
-			<li><NavLink to='/books'  className={({ isActive }) => (isActive ? 'border-b-2 border-secondary font-semibold text-[17px] text-white hover:text-secondary ' : 'font-semibold text-[17px] text-white hover:text-secondary') } >Books</NavLink></li>
+			<li><NavLink to='/books'  className={({ isActive }) => (isActive ? 'border-b-2 border-secondary font-semibold text-[17px] text-white hover:text-secondary ' : 'font-semibold text-[17px] text-white hover:text-secondary') } >Schedule</NavLink></li>
+
+			<li><NavLink to='/books'  className={({ isActive }) => (isActive ? 'border-b-2 border-secondary font-semibold text-[17px] text-white hover:text-secondary ' : 'font-semibold text-[17px] text-white hover:text-secondary') } >Blog</NavLink></li>
 		
 			<li><NavLink to='/contact'  className={({ isActive }) => (isActive ? 'border-b-2 border-secondary ' : 'font-bold text-[17px] text-white hover:text-secondary') } >Contact</NavLink></li>
-		</ul>
 
-
-		<div className="hidden lg:inline-block">
+            <div className="hidden lg:inline-block">
 	<CommonBtn></CommonBtn>
 		</div>
-
+		</ul>
 
 		<div className="lg:hidden ">
-		
-			<div className="flex ml-auto justify-end">
+			<div className="">
 			<button  onClick={() => setIsMenuOpen(true)} htmlFor="my-drawer" className="drawer-button flex items-end text-black-600 p-3">
 				
 				hellow

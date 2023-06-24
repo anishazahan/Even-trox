@@ -1,14 +1,14 @@
-import Navbar from "../shared/Navbar"
-
+import AboutEvent from "./components/AboutEvent/AboutEvent";
+import Banner from "./components/Banner/Banner";
+import './Home.css'
 
 const Home = () => {
   return (
     <>
-
-   <Navbar></Navbar>
-
+      <Banner></Banner>
+      <AboutEvent></AboutEvent>
     </>
-  )
-}
+  );
+};
 
-export default Home
+export default Home;

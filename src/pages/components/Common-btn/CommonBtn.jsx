@@ -1,9 +1,9 @@
-
+import './btn.css'
 
 const CommonBtn = () => {
   return (
     <>
-   <button className="btn bg-secondary ">Get Tricks</button>
+   <button className="Btn bg-secondary ">Get Tricks</button>
 
     </>
   )
