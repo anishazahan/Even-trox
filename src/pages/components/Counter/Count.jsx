@@ -7,12 +7,12 @@ const Counter = () => {
   return (
     <>
 
-        <div className=" px-16 counter-bg py-24  -z-10 ">
-         <div className="max-w-6xl px-16 mx-auto flex  z-10 flex-col md:flex-row justify-between items-center">
+        <div className=" px-5 md:px-10 lg:px-16 counter-bg py-24  -z-10 ">
+         <div className="max-w-6xl px-16 mx-auto flex space-y-10 md:space-y-0 z-10 flex-col md:flex-row justify-between items-center">
          {
              counterData.map((item,index)=>{
-               return <div key={index} className="flex flex-col items-center">
-                    <div className="">
+               return <div key={index} className="flex space-y-3 flex-col items-center">
+                    <div className="rotate-vert-center rotate">
                       <button className={`${
                         item.count==190?"text-7xl text-white p-6 bg-yellow rounded-full" :
                         item.count== 62 ? "text-7xl text-white p-6 bg-cyan-600 rounded-full ":
