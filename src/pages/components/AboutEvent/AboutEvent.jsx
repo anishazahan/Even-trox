@@ -3,11 +3,12 @@ import RegisterBtn from '../Common-btn/RegisterBtn'
 import CommonBtn from '../Common-btn/CommonBtn'
 import './about.css'
 import aboutImg from '../../../assets/img/about-img-1.jpg'
+// import circle from '../../../assets/img/circle-blue.png'
 
 const AboutEvent = () => {
   return (
     <>
-    <div className="max-w-6xl px-5 md:px-10 lg:px-0 flex lg:flex-row flex-col justify-between  items-center  mx-auto  my-36">
+    <div className="max-w-6xl px-5 md:px-10 lg:px-0 flex lg:flex-row flex-col justify-between  items-center  mx-auto  mt-36">
          <div className="left w-full lg:w-[50%] ">
             <p className="uppercase tracking-[5px] ">about event</p>
             <h2 className="text-[42px] mt-3 text-black/90 font-semibold tracking-wide">Welcome to the World</h2>
@@ -48,6 +49,10 @@ const AboutEvent = () => {
             </div>
          </div>
     </div>
+
+    {/* <div className="flex justify-center">
+      <img className='spin' src={circle} alt="" />
+    </div> */}
 
     </>
   )
