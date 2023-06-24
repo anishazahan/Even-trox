@@ -3,6 +3,7 @@ import './counter.css'
 import {counterData} from './counter.js'
 import { BsHeadphones } from 'react-icons/bs'
 
+
 const Counter = () => {
   return (
     <>
@@ -32,6 +33,11 @@ const Counter = () => {
            }
          </div>
         </div>
+
+
+        {/* ........   timeline ............ */}
+
+       
     </>
   )
 }

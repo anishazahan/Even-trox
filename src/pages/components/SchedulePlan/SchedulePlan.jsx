@@ -1,5 +1,6 @@
 import React from 'react'
 import {data} from './ScheduleData.js'
+import Timeline from '../Timeline/Timeline.jsx'
 
 const SchedulePlan = () => {
   return (
@@ -63,6 +64,10 @@ const SchedulePlan = () => {
                    }
                 </div>
       </div>
+
+
+
+      <Timeline></Timeline>
     
     </>
   )
