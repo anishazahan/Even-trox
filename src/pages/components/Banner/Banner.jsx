@@ -11,7 +11,7 @@ const Banner = () => {
         style={{ backgroundImage: `url(${banner})` }}
       >
         <div className="absolute top-5 z-20 left-0 right-0">
-          <Navbar></Navbar>
+          {/* <Navbar></Navbar> */}
         </div>
         <div className="bg-black/50 z-10 inset-0 absolute w-full h-full"></div>
 
@@ -21,7 +21,7 @@ const Banner = () => {
         </div>
 
         <div className="absolute z-50  -bottom-12  left-0 right-0">
-          <TopCounter></TopCounter>
+          {/* <TopCounter></TopCounter> */}
         </div>
       </div>
     </>

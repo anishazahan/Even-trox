@@ -10,9 +10,9 @@ const FeatureSection = () => {
     <div className="">
         <div className="max-w-6xl mx-auto my-24">
             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-x-7 gap-y-10">
-                <div className="flex flex-col justify-center ">
+                <div className="flex flex-col justify-center  ">
                 <p className="uppercase tracking-[5px] ">features</p>
-            <h2 className="text-[42px]  text-black/90 font-semibold tracking-wide">Our Feature</h2>
+            <h2 className="text-[45px]  text-black/90 font-semibold tracking-wide">Our Feature</h2>
                 </div>
                 {
               featureData.map((item,index) =>{
