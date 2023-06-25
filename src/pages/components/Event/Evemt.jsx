@@ -6,8 +6,8 @@ import CommonBtn from '../Common-btn/CommonBtn'
 const Evemt = () => {
   return (
     <>
-      <div className="max-w-6xl mx-auto px-5 md:px-10 lg:px-0 py-40">
-         <div className="flex flex-col lg:flex-row items-center justify-between space-x-10">
+      <div className=" pt-40 pb-20 bg-gray-50">
+         <div className="max-w-6xl mx-auto px-5 md:px-10 lg:px-0 flex flex-col lg:flex-row items-center justify-between space-x-10">
             <div className="left w-full  lg:w-[50%]">
                 <img src={img} alt="" />
             </div>

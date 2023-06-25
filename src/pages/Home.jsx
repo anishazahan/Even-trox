@@ -6,6 +6,7 @@ import FeatureSection from "./components/FeatureSection/FeatureSection";
 import PricingPlan from "./components/PricingPlan/PricingPlan";
 import SchedulePlan from "./components/SchedulePlan/SchedulePlan";
 import SpeakerSection from "./components/Speaker/SpeakerSection";
+import Sponcers from "./components/Sponcers/Sponcers";
 import VedioSection from "./components/VedioSection/VedioSection";
 import './Home.css'
 
@@ -21,6 +22,7 @@ const Home = () => {
       <PricingPlan></PricingPlan>
       <VedioSection></VedioSection>
       <Evemt></Evemt>
+      <Sponcers></Sponcers>
     </>
   );
 };
