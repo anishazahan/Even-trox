@@ -1,3 +1,4 @@
+import Footer from "../shared/Footer";
 import AboutEvent from "./components/AboutEvent/AboutEvent";
 import Banner from "./components/Banner/Banner";
 import Blog from "./components/Blog/Blog";
@@ -27,6 +28,7 @@ const Home = () => {
       <Sponcers></Sponcers>
       <Contact></Contact>
       <Blog></Blog>
+      <Footer></Footer>
     </>
   );
 };
