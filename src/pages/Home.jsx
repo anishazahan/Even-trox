@@ -1,5 +1,6 @@
 import AboutEvent from "./components/AboutEvent/AboutEvent";
 import Banner from "./components/Banner/Banner";
+import Contact from "./components/Contact/Contact";
 import Counter from "./components/Counter/Count";
 import Evemt from "./components/Event/Evemt";
 import FeatureSection from "./components/FeatureSection/FeatureSection";
@@ -23,6 +24,7 @@ const Home = () => {
       <VedioSection></VedioSection>
       <Evemt></Evemt>
       <Sponcers></Sponcers>
+      <Contact></Contact>
     </>
   );
 };
