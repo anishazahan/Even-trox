@@ -2,6 +2,8 @@ import React from 'react'
 import './speaker.css'
 import img from '../../../assets/img/speaker-1.jpg'
 import banner from '../../../assets/img/speaker-bg.jpg'
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const SpeakerSection = () => {
   return (

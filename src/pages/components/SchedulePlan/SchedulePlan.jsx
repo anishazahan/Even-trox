@@ -1,6 +1,8 @@
 import React from 'react'
 import {data} from './ScheduleData.js'
 import Timeline from '../Timeline/Timeline.jsx'
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const SchedulePlan = () => {
   return (
@@ -16,7 +18,7 @@ const SchedulePlan = () => {
                 <div className="flex flex-col md:flex-row space-y-7 md:space-y-0 px-10 md:px-5 justify-between items-center mx-auto max-w-3xl mt-8">
                    {
                      data.map((item,index)=>{
-                        return <div key={index}  
+                        return <div data-aos="flip-left" key={index}  
                         className={`${
                             item.id==1?"border border-yellow rounded-2xl pr-10 py-6" :
                             item.id==2 ? "border border-cyan-700 rounded-2xl pr-10 py-6 ":
@@ -68,6 +70,9 @@ const SchedulePlan = () => {
 
 
       <Timeline></Timeline>
+
+
+     
     
     </>
   )

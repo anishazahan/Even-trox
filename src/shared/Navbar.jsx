@@ -2,6 +2,7 @@ import  { useState } from 'react'
 import { Link, NavLink } from 'react-router-dom'
 import CommonBtn from '../pages/components/Common-btn/CommonBtn'
 import logo from '../assets/img/logo.png'
+import {AiOutlineMenuUnfold} from 'react-icons/ai'
 
 
 
@@ -17,8 +18,8 @@ const Navbar = () => {
 <div className="">
 	<nav className="relative px-4 py-4 max-w-7xl mx-auto flex justify-between  items-center">
 		<Link to='/' className="text-3xl font-bold leading-none" >
-			{logo}
-            <h2 className='text-white'>logo</h2>
+			<img src={logo} alt="" />
+         
 		</Link>
 		
 		<ul className="hidden  lg:flex  lg:items-center lg:space-x-8">
@@ -42,9 +43,9 @@ const Navbar = () => {
 
 		<div className="lg:hidden ">
 			<div className="">
-			<button  onClick={() => setIsMenuOpen(true)} htmlFor="my-drawer" className="drawer-button flex items-end text-black-600 p-3">
+			<button  onClick={() => setIsMenuOpen(true)} htmlFor="my-drawer" className="drawer-button flex items-end text-secondary text-3xl text-black-600 p-3">
 				
-				hellow
+				<AiOutlineMenuUnfold></AiOutlineMenuUnfold>
 			</button>
 			</div>
 		</div>
@@ -57,7 +58,7 @@ const Navbar = () => {
   
   {
 	isMenuOpen && <div className=" navbar-menu relative z-50 lg:hidden">
-		<div className="navbar-backdrop fixed inset-0 bg-gray-800 opacity-25"></div>
+		<div className=" fixed inset-0 bg-gray-800 "></div>
 		<nav className="fixed top-0 left-0 bottom-0 flex flex-col w-5/6 max-w-sm py-6 px-6 bg-primary border-r overflow-y-auto">
 			<div className="flex items-center mb-8">
 				<a className="mr-auto text-3xl font-bold leading-none" href="#">

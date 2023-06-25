@@ -3,6 +3,8 @@ import {featureData} from './feature.js'
 import { SlDiamond } from 'react-icons/sl'
 import '../../Home.css'
 import './feature.css'
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const FeatureSection = () => {
   return (
@@ -16,7 +18,7 @@ const FeatureSection = () => {
                 </div>
                 {
               featureData.map((item,index) =>{
-                return <div key={index} className="">
+                return <div data-aos="fade-down" key={index} className="">
                     <div className="flex space-x-5 px-6 py-10 duration-500 border shadow-xl hover:shadow-none w-full h-full items-center">
                         <div className="left">
                             <button className='text-4xl  text-secondary '><SlDiamond className='hover:rotate-center'></SlDiamond></button>
