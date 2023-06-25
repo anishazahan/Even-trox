@@ -1,5 +1,6 @@
 import AboutEvent from "./components/AboutEvent/AboutEvent";
 import Banner from "./components/Banner/Banner";
+import Blog from "./components/Blog/Blog";
 import Contact from "./components/Contact/Contact";
 import Counter from "./components/Counter/Count";
 import Evemt from "./components/Event/Evemt";
@@ -25,6 +26,7 @@ const Home = () => {
       <Evemt></Evemt>
       <Sponcers></Sponcers>
       <Contact></Contact>
+      <Blog></Blog>
     </>
   );
 };

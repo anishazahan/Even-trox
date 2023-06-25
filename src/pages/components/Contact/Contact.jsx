@@ -6,7 +6,7 @@ import {GoRocket} from 'react-icons/go'
 const Contact = () => {
   return (
     <>
-      <div className="bg-gray-100 py-20">
+      <div className="bg-gray-100 py-40">
         <div className="max-w-6xl mx-auto px-5 xl:px-0 flex flex-col md:flex-row bg-white">
 
            <div className="contact-img w-full md:w-[35%]">
