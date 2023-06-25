@@ -9,11 +9,11 @@ const Contact = () => {
       <div className="bg-gray-100 py-40">
         <div className="max-w-6xl mx-auto px-5 xl:px-0 flex flex-col md:flex-row bg-white">
 
-           <div className="contact-img w-full md:w-[35%]">
+           <div className="contact-img group w-full md:w-[35%]">
                <div className=" h-full flex flex-col items-center justify-center w-full">
                <div className=" text-center my-14 md:my-0">
                 <div className="mb-6">
-                    <button className='p-10 text-6xl bg-white rounded-full'><GoRocket></GoRocket></button>
+                    <button className='p-10 group-hover:animate-sping text-6xl bg-white rounded-full'><GoRocket></GoRocket></button>
                 </div>
                <h2 className='text-white text-2xl uppercase font-bold'>REGISTER NOW</h2>
                 <p className='text-center text-sm font-medium text-white mt-5 px-5 lg:px-7'>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmtempor incididunt labore et dolore magna.</p>

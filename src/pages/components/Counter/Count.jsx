@@ -13,7 +13,7 @@ const Counter = () => {
          {
              counterData.map((item,index)=>{
                return <div key={index} className="flex space-y-3 flex-col items-center">
-                    <div className="rotate-vert-center rotate">
+                    <div className="rotate-vert-center ">
                       <button className={`${
                         item.count==190?"text-7xl text-white p-6 bg-yellow rounded-full" :
                         item.count== 62 ? "text-7xl text-white p-6 bg-cyan-600 rounded-full ":

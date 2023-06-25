@@ -1,4 +1,5 @@
 import Footer from "../shared/Footer";
+import GoToTop from "../shared/GoToTop";
 import AboutEvent from "./components/AboutEvent/AboutEvent";
 import Banner from "./components/Banner/Banner";
 import Blog from "./components/Blog/Blog";
@@ -28,6 +29,7 @@ const Home = () => {
       <Sponcers></Sponcers>
       <Contact></Contact>
       <Blog></Blog>
+      <GoToTop></GoToTop>
       <Footer></Footer>
     </>
   );

@@ -2,6 +2,8 @@ import React from 'react'
 import img1 from '../../../assets/img/1.png'
 import {gold,platinum,silver} from './data.js'
 import './sponcer.css'
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const Sponcers = () => {
   return (
@@ -18,7 +20,7 @@ const Sponcers = () => {
                     <div className="grid grid-cols-2 md:grid-cols-3  lg:grid-cols-4 gap-x-4 mt-8">
                        {
                            platinum.map((item,index)=>{
-                            return  <div key={index} className="flex justify-center border shadow-md h-[68%] bg-white ">
+                            return  <div data-aos="fade-down" key={index} className="flex justify-center border shadow-md h-[68%] bg-white ">
                             <img src={item.img} alt="" />
                         </div>
                            })
@@ -30,7 +32,7 @@ const Sponcers = () => {
                     <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 mt-8">
                        {
                            gold.map((item,index)=>{
-                            return  <div key={index} className="flex justify-center border shadow-md h-[68%] bg-white ">
+                            return  <div data-aos="fade-down" key={index} className="flex justify-center border shadow-md h-[68%] bg-white ">
                             <img src={item.img} alt="" />
                         </div>
                            })

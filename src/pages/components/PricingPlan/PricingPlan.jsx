@@ -15,10 +15,10 @@ const PricingPlan = () => {
 
                 <div className="grid grid-cols-1 md:grid-cols-2  lg:grid-cols-3 gap-14 max-w-6xl px-14 mx-auto mt-20">
 
-                    <div className="group border-b-[22px] border-cyan-600 shadow-md bg-white">
+                    <div className="group pricing border-b-[22px] border-cyan-600 shadow-md bg-white">
                        <div className=" h-[130px] bg-cyan-500"></div>
                        <div className="mx-auto flex justify-center -mt-14">
-                        <button className='p-4 border-cyan-600 border-[6px] ring-[12px] rounded-full text-6xl bg-white group-hover:rotate-[360] ring-white text-cyan-600'><SlDiamond></SlDiamond></button>
+                        <button className='p-4 group-hover:animate-spin border-cyan-600 border-[6px] ring-[12px] rounded-full text-6xl bg-white  ring-white text-cyan-600'><SlDiamond></SlDiamond></button>
                        </div>
                        <div className=" bg-white h-10 w-full -mt-16 rounded-[100%]">
                        
@@ -61,7 +61,7 @@ const PricingPlan = () => {
                     <div className="group border-b-[22px] border-secondary shadow-md bg-white">
                        <div className=" h-[130px] bg-secondary"></div>
                        <div className="mx-auto flex justify-center -mt-14">
-                        <button className='p-4 border-sebg-secondary border-[6px] ring-[12px] rounded-full text-6xl bg-white group-hover:rotate-[360] ring-white text-secondary'><SlDiamond></SlDiamond></button>
+                        <button className='p-4 group-hover:animate-spin border-sebg-secondary border-[6px] ring-[12px] rounded-full text-6xl bg-white group-hover:rotate-[360] ring-white text-secondary'><SlDiamond></SlDiamond></button>
                        </div>
                        <div className=" bg-white h-10 w-full -mt-16 rounded-[100%]">
                        
@@ -104,7 +104,7 @@ const PricingPlan = () => {
                     <div className="group border-b-[22px] border-primary shadow-md bg-white">
                        <div className=" h-[130px] bg-primary"></div>
                        <div className="mx-auto flex justify-center -mt-14">
-                        <button className='p-4 border-sebg-secondary border-[6px] ring-[12px] rounded-full text-6xl bg-white group-hover:rotate-[360] ring-white text-primary'><SlDiamond></SlDiamond></button>
+                        <button className='p-4 group-hover:animate-spin border-sebg-secondary border-[6px] ring-[12px] rounded-full text-6xl bg-white group-hover:rotate-[360] ring-white text-primary'><SlDiamond></SlDiamond></button>
                        </div>
                        <div className=" bg-white h-10 w-full -mt-16 rounded-[100%]">
                        
