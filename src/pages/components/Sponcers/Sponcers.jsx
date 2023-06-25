@@ -10,9 +10,9 @@ const Sponcers = () => {
     <>
         <div className="max-w-6xl mx-auto px-5 xl:px-0 pt-20">
         <div className="flex flex-col items-start sponcer-bg  ">
-                <p className="uppercase tracking-[5px] text-center ">CLIENTS
+                <p className="uppercase tracking-[5px] ">CLIENTS
 </p>
-            <h2 className="text-[45px] mt-2 mb-12 text-black/90 font-semibold tracking-wide text-center">Offcial Sponsors</h2>
+            <h2 className="text-[45px] mt-2 mb-12 text-black/90 font-semibold tracking-wide ">Offcial Sponsors</h2>
                 </div>
 
                 <div className="mb-5">

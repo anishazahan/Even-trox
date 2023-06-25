@@ -9,7 +9,7 @@ const Footer = () => {
     
   
 <footer className="footer-bg pt-16">
-<ScrollToTop svgPath='' color='red'  className='text-secondary pl-2 py-3 pr-1 shadow border bg-cyan-100 w-10 h-10 text-sm' smooth top='4000' />
+<ScrollToTop color='red'  className='text-secondary pl-2 py-3 pr-1 shadow border bg-cyan-100 w-10 h-10 text-sm' smooth top='2000' />
   <div className="max-w-screen-xl px-4 py-16 mx-auto sm:px-6 lg:px-8">
     <div className="grid grid-cols-1 gap-8 lg:grid-cols-3">
       <div>

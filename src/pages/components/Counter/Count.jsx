@@ -8,7 +8,7 @@ const Counter = () => {
   return (
     <>
 
-        <div className=" px-5 md:px-10 lg:px-16 counter-bg py-24  -z-10 ">
+        <div className=" px-5 md:px-10 lg:px-16 counter-bg bg-opacity-5 py-24  -z-10 ">
          <div className="max-w-6xl px-16 mx-auto flex space-y-10 md:space-y-0 z-10 flex-col md:flex-row justify-between items-center">
          {
              counterData.map((item,index)=>{
